@@ -2,7 +2,7 @@
 title: Nikou Zarrabi
 ---
 ###### [ [Github](https://github.com/nkzarrabi) ] - [ [Blog](https://nikouz.com/) ] - [ zarrabinikou@gmail.com ] - [ 404-433-4290 ]
-#### Driven by over three years of data analysis and software development experience, I am passionate about leveraging generative AI to revolutionize industries. Educated at Georgia Tech and seasoned at Porsche and Emory Healthcare, I specialize in automation, Python, Human Computer Interaction, and ethical AI. Fluent in English, French, and Spanish, I excel in global team collaboration. Eager to contribute to ethical, AI-driven innovations
+#### Driven by over three years of data analysis and software development experience, I am passionate about leveraging generative AI to revolutionize industries. Specialized in Automation and Human Computer Interaction. Eager to contribute to ethical, AI-driven innovations
 
 ## Skills
 ```Project management```
@@ -20,8 +20,7 @@ title: Nikou Zarrabi
 ### Freelance 
 ##### Python Developer, August 2022 - Present
 - Contributed to open-source projects and developed custom software solutions for clients.
-- Enhanced **FriendZone**, a social networking platform, focusing on feature development, automated testing with Selenium WebDriver, and CI/CD pipelines using GitHub Actions.
-- Led Django backend development, improving application scalability and performance.
+- Enhanced **FriendZone**, a social networking platform, focusing on feature development, automated testing for Django site with Selenium WebDriver, and CI/CD pipelines using GitHub Actions.
 - Involved in test-driven development, significantly reducing bugs and enhancing data integrity for various projects.
 - Developed an Algorithmic Trading Bot using machine learning, optimizing trading strategies for better profitability.
 
