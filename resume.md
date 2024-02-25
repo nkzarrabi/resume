@@ -2,7 +2,7 @@
 title: Nikou Zarrabi
 ---
 ###### [ [Github](https://github.com/nkzarrabi) ] - [ [Blog](https://nikouz.com/) ] - [ zarrabinikou@gmail.com ] - [ 404-433-4290 ]
-#### Driven by over three years of data analysis and software development experience, I am passionate about leveraging generative AI to revolutionize industries. Educated at Georgia Tech and seasoned at Porsche and Emory Healthcare, I specialize in automation, Python, machine learning, and ethical AI. Fluent in English, French, and Spanish, I excel in global team collaboration. Eager to contribute to ethical, AI-driven innovations"
+#### Driven by over three years of data analysis and software development experience, I am passionate about leveraging generative AI to revolutionize industries. Educated at Georgia Tech and seasoned at Porsche and Emory Healthcare, I specialize in automation, Python, Human Computer Interaction, and ethical AI. Fluent in English, French, and Spanish, I excel in global team collaboration. Eager to contribute to ethical, AI-driven innovations
 
 ## Skills
 ```Project management```
