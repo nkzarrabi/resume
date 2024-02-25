@@ -29,9 +29,19 @@ title: Nikou Zarrabi
 - Improved efficiency by integrating VBA and Macros for data-driven projects.
 
 ## Projects
-**[*resume-md*](https://github.com/nkzarrabi/resume-md)**
 
-Developed a project to build resumes using markdown, generating both pdf and html versions.
+- **[friendzone](https://github.com/kerkeslager/friendzone)**: Rethinking social media. Language: Python. License: GNU Affero General Public License v3.0. Updated 3 weeks ago.
+
+- **[Computational-Algorithmic-Music-Composition](https://github.com/username/Computational-Algorithmic-Music-Composition)**: Using NLP, modular arithmetic and mathematics to compose music. Language: Python. Updated last month.
+
+- **[Ravens-Progressive-Matrices](https://github.com/username/Ravens-Progressive-Matrices)**: Human centric AI for solving visual based logic test.
+
+- **[PDF-Scan-and-Split](https://github.com/username/PDF-Scan-and-Split)**: Task automation during internship at Porsche. 
+
+- **[Chomp-Project](https://github.com/username/Chomp-Project)**: POSET Combinatorial Games using Q-Binomial Coefficients
+ 
+- **[lyricgpt](https://github.com/username/lyricgpt)**: Search for songs by lyrics using OpenAI API.
+
 
 ## Education
 
