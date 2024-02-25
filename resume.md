@@ -17,6 +17,14 @@ title: Nikou Zarrabi
 **Tools**: TensorFlow, PyTorch, Scikit-learn, Linux, Git, Rest, GraphQL
 
 ## Experience
+### Freelance 
+##### Python Developer, August 2022 - Present
+- Contributed to open-source projects and developed custom software solutions for clients.
+- Enhanced **FriendZone**, a social networking platform, focusing on feature development, automated testing with Selenium WebDriver, and CI/CD pipelines using GitHub Actions.
+- Led Django backend development, improving application scalability and performance.
+- Involved in test-driven development, significantly reducing bugs and enhancing data integrity for various projects.
+- Developed an Algorithmic Trading Bot using machine learning, optimizing trading strategies for better profitability.
+
 ### Viqal, Amsterdam, Netherlands
 ##### Data Analyst, November 2020 - January 2021
 - Consulted for a startup focusing on technology innovation in hospitality.
