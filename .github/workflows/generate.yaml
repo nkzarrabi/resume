@@ -46,6 +46,9 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
+    - name: Install hub 
+      run: |
+        sudo snap install hub --classic
     - name: Set Tag
       id: current-datetime
       run: echo "CURRENT_DATETIME=$(date +'%Y-%m-%d-%H_%M_%S%z')" >> "$GITHUB_OUTPUT"
