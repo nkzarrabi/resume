@@ -32,7 +32,7 @@ GitHub: <a href="https://github.com/nkzarrabi">nkzarrabi</a>
 ### Porsche Cars North America
 *Accounting Intern, June 2019 - October 2019*
 - Automated invoice processing and payment runs using Python, integrating Python scripts with VBA for efficiency.
-- This automation helped interns save **3 hours per day**, translating to a **bold**37.5% increase in productivity**.
+- This automation helped interns save **3 hours per day**, translating to a **37.5% increase in productivity**.
 
 ## Projects
 - **[friendzone](https://github.com/kerkeslager/friendzone)**: A new vision for social media. Python. AGPL v3.0.
