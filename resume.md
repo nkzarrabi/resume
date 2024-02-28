@@ -1,16 +1,22 @@
 ---
 title: Nikou Zarrabi
 ---
-###### [ [Github](https://github.com/nkzarrabi) ] - [ [Blog](https://nikouz.com/) ] - [ zarrabinikou@gmail.com ] - [ 404-433-4290 ]
+###### 
+Atlanta, GA | (404) 433-4290 | <a href="mailto:zarrabinikou@gmail.com">zarrabinikou@gmail.com</a> | 
+LinkedIn: <a href="https://www.linkedin.com/in/nikouzarrabi/">nikouzarrabi</a> | 
+GitHub: <a href="https://github.com/nkzarrabi">nkzarrabi</a>
+
+
 #### Driven by over three years of data analysis and software development experience, I am passionate about leveraging generative AI to revolutionize industries. Specialized in Automation and Human Computer Interaction. Eager to contribute to ethical, AI-driven innovations
 
 ## Skills
+```Problem-solving```
+```Automation```
+```Test Driven Development```
 ```Project management```
 ```Team leadership```
 ```Communication```
-```Problem-solving```
-```Agile methodology```
-```SQL```
+
 
 **Languages**: Python, Java, C, JavaScript, HTML, PHP  
 **Databases**: Redis, Postgres, Neo4j  
@@ -40,8 +46,6 @@ title: Nikou Zarrabi
 - **[friendzone](https://github.com/kerkeslager/friendzone)**: Rethinking social media. Language: Python. License: GNU Affero General Public License v3.0. Updated 3 weeks ago.
 
 - **[Computational-Algorithmic-Music-Composition](https://github.com/username/Computational-Algorithmic-Music-Composition)**: Using NLP, modular arithmetic and mathematics to compose music. Language: Python. Updated last month.
-
-- **[Ravens-Progressive-Matrices](https://github.com/username/Ravens-Progressive-Matrices)**: Human centric AI for solving visual based logic test.
 
 - **[PDF-Scan-and-Split](https://github.com/username/PDF-Scan-and-Split)**: Task automation during internship at Porsche. 
 
