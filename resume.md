@@ -23,17 +23,17 @@ University of Georgia, May 2019
 
 ## Experience
 
-### Freelance Python Developer
+### Python Developer (2023- Present)
 - Developed software solutions and contributed to open-source projects.
 - Enhanced "FriendZone", a Django-based social platform, with new features and **CI/CD pipelines**.
 - Reduced bugs and improved data integrity through **test-driven development**.
 - **Increased deployment frequency by 40%** and reduced bug rates by **30%** through automation and continuous integration strategies.
 
-### Data Analyst
+### Data Analyst - Viqal (2021-2022)
 - Provided data analytics for a tech innovation startup in hospitality.
 - Enhanced customer experience and satisfaction through **data-driven insights**, leading to a **20% improvement in customer feedback scores**.
 
-### Accounting Intern
+### Accounting Intern - PCNA (2019-2020)
 - Automated invoice processing and payment runs using Python, integrating Python scripts with VBA for efficiency.
 - This automation helped interns save **3 hours per day**, translating to a **37.5% increase in productivity**.
 
