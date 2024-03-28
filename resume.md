@@ -7,7 +7,13 @@ LinkedIn: <a href="https://www.linkedin.com/in/nikouzarrabi/">nikouzarrabi</a> |
 GitHub: <a href="https://github.com/nkzarrabi">nkzarrabi</a>
 
 
-#### Revolutionizing industries with over three years in data analysis and software development, specializing in automation and HCI for ethical AI innovations.
+## Education
+**MS in Computer Science,**  
+Georgia Tech, Interactive Intelligence, August 2023
+
+**BS in Mathematics**  
+University of Georgia, May 2019
+
 
 ## Skills
 - **Core:** Problem-solving, Automation, Test-Driven Development, Project Management, Team Leadership, Communication
@@ -24,13 +30,13 @@ GitHub: <a href="https://github.com/nkzarrabi">nkzarrabi</a>
 - Reduced bugs and improved data integrity through **test-driven development**.
 - **Increased deployment frequency by 40%** and reduced bug rates by **30%** through automation and continuous integration strategies.
 
-### Viqal, Amsterdam, Netherlands
-*Data Analyst, November 2020 - January 2021*
+### Data Analyst
+*Viqal, November 2020 - January 2021*
 - Provided data analytics for a tech innovation startup in hospitality.
 - Enhanced customer experience and satisfaction through **data-driven insights**, leading to a **20% improvement in customer feedback scores**.
 
-### Porsche Cars North America
-*Accounting Intern, June 2019 - October 2019*
+### Accounting Intern
+*Porsche Cars NA, June 2019 - October 2019*
 - Automated invoice processing and payment runs using Python, integrating Python scripts with VBA for efficiency.
 - This automation helped interns save **3 hours per day**, translating to a **37.5% increase in productivity**.
 
@@ -41,10 +47,3 @@ GitHub: <a href="https://github.com/nkzarrabi">nkzarrabi</a>
 - **[Chomp-Project](https://github.com/username/Chomp-Project)**: Exploring combinatorial games.
 - **[lyricgpt](https://github.com/username/lyricgpt)**: Searching songs by lyrics with AI.
 
-
-## Education
-**Georgia Institute of Technology**  
-MS in Computer Science, Interactive Intelligence, August 2023
-
-**University of Georgia**  
-BS in Mathematics, May 2019
