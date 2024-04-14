@@ -22,6 +22,7 @@ University of Georgia, May 2019
 - **Cloud Platforms:** AWS, Google Cloud, DigitalOcean 
 - **DevOps Tools**: Git, Docker, Kubernetes 
 - **Other Tools:** TensorFlow, PyTorch, Scikit-learn, Linux, Git, REST, GraphQL, Bash 
+- **Certifications:** Generative AI with Large Language Models — Coursera
 
 ## Experience
 
@@ -45,6 +46,3 @@ University of Georgia, May 2019
 - **[PDF-Scan-and-Split](https://github.com/username/PDF-Scan-and-Split)**: Automating tasks at Porsche.
 - **[Chomp-Project](https://github.com/username/Chomp-Project)**: Exploring combinatorial games.
 - **[lyricgpt](https://github.com/username/lyricgpt)**: Searching songs by lyrics with AI.
-
-## Certifications
-- Generative AI with Large Language Models — Coursera
