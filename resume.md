@@ -17,9 +17,12 @@ University of Georgia, May 2019
 
 ## Skills
 - **Core:** Problem-solving, Automation, Test-Driven Development, Project Management, Team Leadership, Communication
+- **Operating Systems**: Advanced Linux, Windows, Mac OS
 - **Languages:** Python, Java, C, JavaScript, HTML, PHP
 - **Databases:** Redis, Postgres, Neo4j
-- **Tools:** TensorFlow, PyTorch, Scikit-learn, Linux, Git, REST, GraphQL
+- **Cloud Platforms:** AWS, Google Cloud, DigitalOcean 
+- **DevOps Tools**: Git, Docker, Kubernetes 
+- **Other Tools:** TensorFlow, PyTorch, Scikit-learn, Linux, Git, REST, GraphQL, Bash scripting, CI/CD pipelines
 
 ## Experience
 
@@ -28,6 +31,7 @@ University of Georgia, May 2019
 - Enhanced "FriendZone", a Django-based social platform, with new features and **CI/CD pipelines**.
 - Reduced bugs and improved data integrity through **test-driven development**.
 - **Increased deployment frequency by 40%** and reduced bug rates by **30%** through automation and continuous integration strategies.
+- Managed server environments and application hosting using DigitalOcean, demonstrating proficiency in cloud computing platforms.
 
 ### Data Analyst - Viqal (2021-2022)
 - Provided data analytics for a tech innovation startup in hospitality.
@@ -44,3 +48,5 @@ University of Georgia, May 2019
 - **[Chomp-Project](https://github.com/username/Chomp-Project)**: Exploring combinatorial games.
 - **[lyricgpt](https://github.com/username/lyricgpt)**: Searching songs by lyrics with AI.
 
+## Certifications
+- Generative AI with Large Language Models — Coursera
