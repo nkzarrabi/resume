@@ -26,7 +26,13 @@ University of Georgia, May 2019
 
 ## Experience
 
-### Python Developer (2023- Present)
+### IT Support Specialist - Pariroc (2024 - Present)
+- Enhanced document translation and formatting by utilizing advanced language models and LaTeX, improving processing speed by 75%.
+- Led the operational training for new augmented reality (AR) systems and simulation software, increasing training effectiveness by 30%.
+- Managed data storage solutions that improved data retrieval speeds by 25% and maintained system reliability.
+- Streamlined account recovery processes, reducing recovery times by 40% and enhancing system security.
+
+### Python Developer- Autopreneur (2023- Present)
 - Enhanced "FriendZone", a Django-based social platform, with new features and **CI/CD pipelines**.
 - Reduced bugs and improved data integrity through **test-driven development**.
 - **Increased deployment frequency by 40%** and reduced bug rates by **30%** through automation and continuous integration strategies.
