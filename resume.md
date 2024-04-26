@@ -49,6 +49,5 @@ University of Georgia, May 2019
 ## Projects
 - **[friendzone](https://github.com/kerkeslager/friendzone)**: A new vision for social media. Python. AGPL v3.0.
 - **[Computational Algorithmic Music Composition](https://github.com/username/Computational-Algorithmic-Music-Composition)**: Composing music with NLP and math. Python.
-- **[PDF-Scan-and-Split](https://github.com/username/PDF-Scan-and-Split)**: Automating tasks at Porsche.
 - **[Chomp-Project](https://github.com/username/Chomp-Project)**: Exploring combinatorial games.
 - **[lyricgpt](https://github.com/username/lyricgpt)**: Searching songs by lyrics with AI.
