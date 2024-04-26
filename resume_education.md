@@ -19,7 +19,7 @@ Atlanta International School, May 2015
 
 ## Skills
 - **Core:** Problem-solving, Automation, Test-Driven Development, Project Management, Classroom Management
-- **Technical:** Python, Java, HTML, JavaScript, Django, Data Analysis, Cloud Platforms (AWS, Google Cloud)
+- **Software:** Python, Java, HTML, JavaScript, Django, Data Analysis, Cloud Platforms (AWS, Google Cloud)
 - **Teaching:** Multilingual Communication (English, French, Spanish), Curriculum Development, Educational Technology Integration
 
 ## Experience
