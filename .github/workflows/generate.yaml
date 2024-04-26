@@ -6,7 +6,6 @@ on:
     paths:
       - flake.*
       - resume.md
-      - resume_education.md
       - style.css
 jobs:
   generate:
@@ -23,9 +22,6 @@ jobs:
         cp result/resume/resume.html out/${{ github.actor}}_resume.html
         cp result/resume/resume.pdf out/${{ github.actor}}_resume.pdf
         cp result/resume/resume.md out/${{ github.actor}}_resume.md
-        cp result/resume_education/resume.html out/${{ github.actor}}_resume_education.html
-        cp result/resume_education/resume.pdf out/${{ github.actor}}_resume_education.pdf
-        cp result/resume_education/resume.md out/${{ github.actor}}_resume_education.md
     - name: Store Artifacts
       uses: actions/upload-artifact@v4
       with:
@@ -45,7 +41,6 @@ jobs:
       run: |
         mkdir public
         cp out/${{ github.actor }}_resume.html public/index.html
-        cp out/${{ github.actor }}_resume_education.html public/education.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
@@ -64,9 +59,6 @@ jobs:
         -m ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
         -a out/${{ github.actor }}_resume.html \
         -a out/${{ github.actor }}_resume.md \
-        -a out/${{ github.actor }}_resume.pdf \
-        -a out/${{ github.actor }}_resume_education.html \
-        -a out/${{ github.actor }}_resume_education.md \
-        -a out/${{ github.actor }}_resume_education.pdf
+        -a out/${{ github.actor }}_resume.pdf
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
