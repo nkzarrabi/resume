@@ -64,7 +64,7 @@ jobs:
         -m ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
         -a out/${{ github.actor }}_resume.html \
         -a out/${{ github.actor }}_resume.md \
-        -a out/${{ github.actor }}_resume.pdf
+        -a out/${{ github.actor }}_resume.pdf \
         -a out/${{ github.actor }}_resume_education.html \
         -a out/${{ github.actor }}_resume_education.md \
         -a out/${{ github.actor }}_resume_education.pdf
