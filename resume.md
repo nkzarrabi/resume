@@ -6,9 +6,8 @@ Atlanta, GA | (404) 433-4290 | <a href="mailto:zarrabinikou@gmail.com">zarrabini
 LinkedIn: <a href="https://www.linkedin.com/in/nikouzarrabi/">nikouzarrabi</a> | 
 GitHub: <a href="https://github.com/nkzarrabi">nkzarrabi</a>
 
-
 ## Education
-**MS in Computer Science,**  
+**MS in Computer Science**  
 Georgia Institute of Technology, Interactive Intelligence, August 2023
 
 **BS in Mathematics**  
@@ -19,7 +18,8 @@ Atlanta International School, May 2015
 
 ## Skills
 - **Core:** Problem-solving, Automation, Test-Driven Development, Project Management, Classroom Management
-- **Software:** Python, Java, HTML, JavaScript, Django, Data Analysis, Cloud Platforms (AWS, Google Cloud)
+- **Software:** Python, Java, HTML, JavaScript, Django, Data Analysis, Cloud Platforms (AWS, Google Cloud), PHP, Liquid, Mambo
+- **Web Development:** Shopify, WordPress, WooCommerce
 - **Teaching:** Multilingual Communication (English, French, Spanish), Curriculum Development, Educational Technology Integration
 
 ## Experience
@@ -32,12 +32,22 @@ Atlanta International School, May 2015
 - Contributed to the development, testing, and deployment of new software features, emphasizing efficient, user-friendly solutions.
 - Implemented CI/CD pipelines, enhancing software delivery and operational efficiency.
 
-### Python Developer - Autopreneur (2023- Present)
+### Python Developer - Autopreneur (2023 - Present)
 - Led the enhancement of "FriendZone", a Django-based social platform, by introducing new features and integrating continuous deployment pipelines.
 - Applied test-driven development techniques to ensure robust, error-free software.
 
+### Technology Manager - Keivan Woven Arts (May 2024 - Present)
+- Developed and implemented an inventory management system to catalog and organize high-end antique and vintage rugs across multiple platforms, improving operational efficiency and accuracy.
+- Automated the process of syncing product availability across e-commerce platforms such as Chairish and 1stdibs, ensuring consistent listings and reducing manual errors.
+- Managed the integration of rug tracking systems with QuickBooks for seamless invoicing and streamlined financial reporting.
+- Created and maintained custom scripts to update and manage product listings, including automating the addition of descriptions, photos, and metafields.
+- Collaborated with the sales team to optimize the online presence of products, contributing to increased sales and customer satisfaction.
+
 ## Certifications
-- Generative AI with Large Language Models, Coursera
+- Generative AI with Large Language Models, Coursera (2024)
 
 ## Languages
-- Fluent in English, French. Proficient in Spanish. Moderate proficiency in German. 
+- **English:** Native
+- **French:** Native
+- **Spanish:** Proficient
+- **German:** Intermediate
