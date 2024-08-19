@@ -32,10 +32,6 @@ Atlanta International School, May 2015
 - Contributed to the development, testing, and deployment of new software features, emphasizing efficient, user-friendly solutions.
 - Implemented CI/CD pipelines, enhancing software delivery and operational efficiency.
 
-### Python Developer - Autopreneur (2023 - Present)
-- Led the enhancement of "FriendZone", a Django-based social platform, by introducing new features and integrating continuous deployment pipelines.
-- Applied test-driven development techniques to ensure robust, error-free software.
-
 ### Technology Manager - Keivan Woven Arts (May 2024 - Present)
 - Developed and implemented an inventory management system to catalog and organize high-end antique and vintage rugs across multiple platforms, improving operational efficiency and accuracy.
 - Automated the process of syncing product availability across e-commerce platforms such as Chairish and 1stdibs, ensuring consistent listings and reducing manual errors.
