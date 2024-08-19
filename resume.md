@@ -16,6 +16,9 @@ University of Georgia, May 2019
 **IB Diploma**  
 Atlanta International School, May 2015
 
+## Certifications
+- Generative AI with Large Language Models, Coursera (2024)
+
 ## Skills
 - **Core:** Problem-solving, Automation, Test-Driven Development, Project Management, Classroom Management
 - **Software:** Python, Java, HTML, JavaScript, Django, Data Analysis, Cloud Platforms (AWS, Google Cloud), PHP, Liquid, Mambo
@@ -24,9 +27,8 @@ Atlanta International School, May 2015
 
 ## Experience
 ### Math and Language Tutor - Bonjour Atlanta Tutoring Café (2013 - Present)
-- Developed personalized tutoring strategies that enhanced student understanding and academic performance in Mathematics, English, French, and Spanish.
-- Collaborated with parents and educators to implement effective learning solutions that accommodated individual student needs.
-- Utilized educational technology tools to create engaging and inclusive learning environments.
+- Provided personalized tutoring in Mathematics, English, French, and Spanish, enhancing student performance.
+- Collaborated with parents and educators to tailor effective learning strategies.
 
 ### Software Engineer and IT Specialist - Pariroc (2024 - Present)
 - Contributed to the development, testing, and deployment of new software features, emphasizing efficient, user-friendly solutions.
@@ -38,9 +40,6 @@ Atlanta International School, May 2015
 - Managed the integration of rug tracking systems with QuickBooks for seamless invoicing and streamlined financial reporting.
 - Created and maintained custom scripts to update and manage product listings, including automating the addition of descriptions, photos, and metafields.
 - Collaborated with the sales team to optimize the online presence of products, contributing to increased sales and customer satisfaction.
-
-## Certifications
-- Generative AI with Large Language Models, Coursera (2024)
 
 ## Languages
 - **English:** Native
