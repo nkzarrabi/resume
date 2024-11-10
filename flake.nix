@@ -1,5 +1,5 @@
 {
-  description = "Build you resume with markdown";
+  description = "Build your resume with markdown";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
@@ -20,7 +20,7 @@
         buildInputs = with pkgs; [
           pandoc
           wkhtmltopdf-bin
-          html-validator-cli
+          vnu-jar  # Replacing html-validator-cli with vnu-jar
           poppler-utils
         ];
 
@@ -34,7 +34,7 @@
           resume.html \
           resume.pdf
 
-          html-validator --file=resume.html --verbose
+          java -jar $(which vnu.jar) resume.html  # HTML validation with vnu-jar
 
           pdfinfo resume.pdf
         '';
@@ -64,7 +64,7 @@
           };
         };
 
-        devShell = mkShell {
+        devShell = pkgs.mkShell {
           inherit buildInputs;
         };
       });
