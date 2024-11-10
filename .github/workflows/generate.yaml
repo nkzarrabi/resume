@@ -22,6 +22,12 @@ jobs:
         cp result/resume/resume.html out/${{ github.actor}}_resume.html
         cp result/resume/resume.pdf out/${{ github.actor}}_resume.pdf
         cp result/resume/resume.md out/${{ github.actor}}_resume.md
+    - name: Validate HTML
+      run: |
+        html-validator --file=out/${{ github.actor}}_resume.html --verbose
+    - name: Validate PDF
+      run: |
+        pdfinfo out/${{ github.actor}}_resume.pdf
     - name: Store Artifacts
       uses: actions/upload-artifact@v4
       with:
