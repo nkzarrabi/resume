@@ -20,6 +20,8 @@
         buildInputs = with pkgs; [
           pandoc
           wkhtmltopdf-bin
+          html-validator-cli
+          poppler-utils
         ];
 
         buildPhase = ''
@@ -31,6 +33,10 @@
           wkhtmltopdf --enable-local-file-access \
           resume.html \
           resume.pdf
+
+          html-validator --file=resume.html --verbose
+
+          pdfinfo resume.pdf
         '';
 
       in with pkgs; {
@@ -63,4 +69,3 @@
         };
       });
 }
-

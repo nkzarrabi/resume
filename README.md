@@ -64,6 +64,15 @@ You can customize the stylized PDF and HTML output by editing `style.css`.
 ![demo](./demo.png)
 
 
+## Validation Process in CI/CD Pipeline
+
+The CI/CD pipeline includes validation steps to ensure the generated HTML and PDF files are properly formatted. The validation process is as follows:
+
+1. **HTML Validation**: The `html-validator-cli` tool is used to validate the generated HTML file. This ensures that the HTML file is properly formatted and adheres to web standards.
+2. **PDF Validation**: The `pdfinfo` tool from the `poppler-utils` package is used to validate the generated PDF file. This ensures that the PDF file is properly formatted and contains the expected content.
+
+These validation steps are included in the `generate` job of the GitHub Actions workflow (`.github/workflows/generate.yaml`).
+
 ## Credits
 
 Originally inspired by [vidluther's project](https://github.com/vidluther/markdown-resume).
