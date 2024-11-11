@@ -72,7 +72,18 @@ The CI/CD pipeline includes validation steps to ensure the generated HTML and PD
 2. **PDF Validation**: The `pdfinfo` tool from the `poppler-utils` package is used to validate the generated PDF file. This ensures that the PDF file is properly formatted and contains the expected content.
 
 These validation steps are included in the `generate` job of the GitHub Actions workflow (`.github/workflows/generate.yaml`).
-W.I.P
+
+### Updated GitHub Actions Workflow
+
+The GitHub Actions workflow has been updated to use the following versions of actions:
+
+- `actions/checkout@v2`
+- `cachix/install-nix-action@v12`
+- `actions/upload-artifact@v2`
+- `actions/download-artifact@v2`
+- `peaceiris/actions-gh-pages@v3.8.0`
+
+Please make sure to update your workflow file accordingly to ensure the CI/CD pipeline functions correctly.
 
 ## Credits
 
