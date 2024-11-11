@@ -1,5 +1,5 @@
 
-# Nikou Zarrabi
+## Nikou Zarrabi
 
 Atlanta, GA | (404) 433-4290 | [zarrabinikou@gmail.com](mailto:zarrabinikou@gmail.com)  
 LinkedIn: [nikouzarrabi](https://www.linkedin.com/in/nikouzarrabi/) | GitHub: [nkzarrabi](https://github.com/nkzarrabi)
