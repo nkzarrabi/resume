@@ -26,6 +26,11 @@ jobs:
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
       
+      - name: Install poppler-utils for PDF validation
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+      
       - name: Build Resumes
         run: |
           mkdir out
@@ -34,7 +39,6 @@ jobs:
           cp result/resume/resume.pdf out/${{ github.actor }}_resume.pdf
           cp result/resume/resume.md out/${{ github.actor }}_resume.md
       
-      # Use vnu.jar for HTML validation if html-validator is not available
       - name: Download vnu.jar for HTML validation
         run: |
           wget -O vnu.jar https://github.com/validator/validator/releases/download/latest/vnu.jar
