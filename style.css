@@ -17,7 +17,7 @@ body {
     color: black;
 }
 
-*:not('#mkdbuttons') {
+*:not(#mkdbuttons) {
     margin: 0;
     padding: 0;
 }
