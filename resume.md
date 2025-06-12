@@ -25,6 +25,13 @@ University of Georgia, May 2019
 
 ## Experience
 
+**iOS Developer**  
+*Swimming Cars* | Jan 2025 – Present  
+- Designed and developed a SwiftUI-based iOS app enabling families in swim communities to coordinate carpools efficiently and securely.
+- Integrated Apple Maps and Firebase for real-time location tracking, user authentication, and data persistence.
+- Implemented custom UI components for post filtering, user messaging, and onboarding.
+- Led the architecture of a modular, scalable codebase optimized for future feature expansion, including routing, push notifications, and community moderation tools.
+
 **DevOps Engineer / E-commerce Tech Lead**  
 *Keivan Woven Arts*  
 - Developed infrastructure for product listings across Shopify, Chairish, and 1stdibs, automating inventory processes and reducing manual work.
