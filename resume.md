@@ -46,7 +46,7 @@ University of Georgia, May 2018
 - Automated cross-platform inventory synchronization, establishing single source of truth and eliminating stock discrepancies
 
 **Data Automation Intern**  
-*Porsche Cars North America* | Jun 2018 – Nov 2019  
+*Porsche Cars North America* | Jun 2018 – Nov 2018  
 - Developed Python automation solution for invoice processing, reducing manual processing time by 75% during critical transition period
 - Created PDF parsing and data extraction pipeline handling 500+ invoices per week with 99% accuracy
 - Supported company-wide sustainability initiative by digitizing paper-based workflows, eliminating 10,000+ pages annually
