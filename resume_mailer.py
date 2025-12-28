@@ -267,10 +267,8 @@ class CompanyAssessment:
         score = 0
         experience = self.resume_data['experience']
         
-        # Analyze past company sizes based on patterns rather than specific names
-        # Small indicators: single founder/owner names, local businesses
-        # Startup indicators: recent dates, tech focus, small team roles
-        # Enterprise indicators: well-known companies, large scale operations
+        # Analyze past company sizes based on general patterns
+        # We use multiple signals to infer company type rather than specific names
         has_startup_exp = False
         has_enterprise_exp = False
         has_small_business_exp = False
@@ -278,28 +276,32 @@ class CompanyAssessment:
         for job in experience:
             company_lower = job['company'].lower()
             title_lower = job['title'].lower()
+            dates_lower = job['dates'].lower()
             
-            # Heuristics for company type detection
-            # Startup indicators: recent role, mobile/app focus, broad responsibilities
-            if 'jan 2025' in job['dates'].lower() or 'ios' in title_lower or 'mobile' in company_lower:
-                has_startup_exp = True
+            # Startup indicators: recent roles, tech/mobile focus, broad multi-disciplinary titles
+            startup_keywords = ['mobile', 'app', 'ios', 'android', 'tech', 'software']
+            if any(keyword in company_lower or keyword in title_lower for keyword in startup_keywords):
+                # Recent startups often have current/recent dates
+                if 'present' in dates_lower or any(str(year) in dates_lower for year in [2024, 2025]):
+                    has_startup_exp = True
             
-            # Enterprise indicators: major brands, internship at large company
-            if 'porsche' in company_lower or 'intern' in title_lower:
+            # Enterprise indicators: internships often at large companies, well-known brands
+            if 'intern' in title_lower:
                 has_enterprise_exp = True
             
-            # Small business indicators: multi-role titles, owner/arts/craft business names
-            if 'lead' in title_lower or 'arts' in company_lower or 'woven' in company_lower:
+            # Small business indicators: multi-faceted roles (lead/tech lead), niche industries
+            if 'lead' in title_lower or 'owner' in company_lower:
                 has_small_business_exp = True
         
+        # Score based on company size match
         if company_size.lower() == 'startup' and has_startup_exp:
             score += 8
         elif company_size.lower() == 'enterprise' and has_enterprise_exp:
             score += 8
-        elif company_size.lower() == 'medium':
-            score += 7  # Good fit for any background
+        elif company_size.lower() == 'medium' and (has_small_business_exp or has_enterprise_exp):
+            score += 7
         else:
-            score += 5  # Some experience is transferable
+            score += 5  # Base score - experience is somewhat transferable
         
         # Work culture assessment based on skills and experience
         if work_culture.lower() == 'fast-paced':
@@ -470,16 +472,35 @@ class CoverLetterGenerator:
         text = ""
         
         industry = company_info.get('industry', '').lower()
+        position = company_info.get('position', '').lower()
         
+        # Try to find relevant experience from resume
+        relevant_exp = None
+        for exp in self.resume_data['experience']:
+            title_lower = exp['title'].lower()
+            company_lower = exp['company'].lower()
+            
+            # Match based on industry or position keywords
+            if ('ecommerce' in industry or 'retail' in industry) and ('devops' in title_lower or 'ecommerce' in company_lower):
+                relevant_exp = exp
+                break
+            elif ('ios' in position or 'mobile' in position) and 'ios' in title_lower:
+                relevant_exp = exp
+                break
+            elif 'devops' in position and 'devops' in title_lower:
+                relevant_exp = exp
+                break
+        
+        # Provide industry-specific context
         if 'ecommerce' in industry or 'retail' in industry:
-            text += ("At Keivan Woven Arts, I built automated infrastructure for product listings across 3 major platforms, "
-                    "reducing manual listing time by 80% and improving operational efficiency. ")
-        elif 'tech' in industry or 'software' in industry:
-            text += ("In my recent role, I architected and developed a production-ready SwiftUI iOS app, "
-                    "implementing secure authentication and achieving zero crashes with 50+ users. ")
-        elif 'devops' in company_info.get('position', '').lower():
-            text += ("I have extensive experience implementing CI/CD pipelines using GitHub Actions, "
-                    "decreasing deployment time from hours to minutes and reducing errors by 95%. ")
+            text += ("I have extensive experience building automated infrastructure for product listings across multiple platforms, "
+                    "significantly reducing manual processing time and improving operational efficiency. ")
+        elif ('tech' in industry or 'software' in industry) and ('ios' in position or 'mobile' in position):
+            text += ("In my recent role, I architected and developed production-ready mobile applications, "
+                    "implementing secure authentication and achieving high reliability with active users. ")
+        elif 'devops' in position or 'infrastructure' in position:
+            text += ("I have extensive experience implementing CI/CD pipelines and automation solutions, "
+                    "significantly decreasing deployment time and reducing operational errors. ")
         else:
             text += ("Throughout my career, I have consistently delivered high-quality solutions, "
                     "combining technical expertise with strong problem-solving skills. ")
