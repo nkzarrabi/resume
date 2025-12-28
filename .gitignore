@@ -1,1 +1,5 @@
 result
+email_config.json
+cover_letter_*.txt
+*.pyc
+__pycache__/
