@@ -46,6 +46,28 @@ This will place the stylized files along side the original markdown file in
     └──  resume.pdf
 ```
 
+## Resume Mailer
+
+**NEW!** This repository now includes a Python-based tool to help you assess company fit and send your resume with personalized cover letters.
+
+### Features
+- **Success Assessment**: Calculate a fit score (0-100) based on skills, experience, culture, and growth potential
+- **Cover Letter Generation**: Automatically create personalized cover letters tailored to each company
+- **Email Integration**: Send your resume and cover letter directly to hiring managers
+
+### Quick Start
+```bash
+python resume_mailer.py
+```
+
+The tool will guide you through an interactive process to:
+1. Input company and position details
+2. Calculate your success score for the role
+3. Generate a customized cover letter
+4. Optionally send your resume via email
+
+For detailed documentation, see [RESUME_MAILER_README.md](./RESUME_MAILER_README.md).
+
 ## GitHub Pages
 
 GitHub Pages is used to deploy the stylized HTML file as a static site. For this to work,
