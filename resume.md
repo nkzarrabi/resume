@@ -14,7 +14,7 @@ Software Engineer with MS in Computer Science specializing in full-stack develop
 Georgia Institute of Technology, Interactive Intelligence, August 2023
 
 **BS in Mathematics**  
-University of Georgia, May 2019
+University of Georgia, May 2018
 
 ## Certifications
 
@@ -39,14 +39,14 @@ University of Georgia, May 2019
 - Implemented secure user messaging system and comprehensive onboarding flow, achieving 95% completion rate
 
 **DevOps Engineer / E-commerce Tech Lead**  
-*Keivan Woven Arts* | Jan 2023 – Dec 2024  
+*Keivan Woven Arts* | Jan 2024 – Dec 2025  
 - Built and maintained automated infrastructure for product listings across 3 major platforms (Shopify, Chairish, 1stdibs), reducing manual listing time by 80%
 - Implemented CI/CD pipelines using GitHub Actions, decreasing deployment time from hours to minutes and reducing errors by 95%
 - Integrated AWS S3 with Django backend for image storage, improving page load times by 60% and reducing hosting costs by 40%
 - Automated cross-platform inventory synchronization, establishing single source of truth and eliminating stock discrepancies
 
 **Data Automation Intern**  
-*Porsche Cars North America* | Summer 2023  
+*Porsche Cars North America* | Summer 2018  
 - Developed Python automation solution for invoice processing, reducing manual processing time by 75% during critical transition period
 - Created PDF parsing and data extraction pipeline handling 500+ invoices per week with 99% accuracy
 - Supported company-wide sustainability initiative by digitizing paper-based workflows, eliminating 10,000+ pages annually
