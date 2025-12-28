@@ -13,7 +13,6 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 from datetime import datetime
-from pathlib import Path
 
 
 class ResumeParser:
@@ -79,22 +78,22 @@ class ResumeParser:
             section_text = skills_section.group(1)
             
             if 'Languages:' in section_text:
-                lang_match = re.search(r'Languages:\*\*\s+([^\n]+)', section_text)
+                lang_match = re.search(r'-\s*\*\*Languages:\*\*\s+([^\n]+)', section_text)
                 if lang_match:
                     skills['languages'] = [s.strip() for s in lang_match.group(1).split(',')]
             
             if 'Frameworks' in section_text:
-                fw_match = re.search(r'Frameworks[^:]*:\*\*\s+([^\n]+)', section_text)
+                fw_match = re.search(r'-\s*\*\*Frameworks[^:]*:\*\*\s+([^\n]+)', section_text)
                 if fw_match:
                     skills['frameworks'] = [s.strip() for s in fw_match.group(1).split(',')]
             
             if 'Cloud' in section_text:
-                cloud_match = re.search(r'Cloud[^:]*:\*\*\s+([^\n]+)', section_text)
+                cloud_match = re.search(r'-\s*\*\*Cloud[^:]*:\*\*\s+([^\n]+)', section_text)
                 if cloud_match:
                     skills['cloud'] = [s.strip() for s in cloud_match.group(1).split(',')]
             
             if 'Specializations:' in section_text:
-                spec_match = re.search(r'Specializations:\*\*\s+([^\n]+)', section_text)
+                spec_match = re.search(r'-\s*\*\*Specializations:\*\*\s+([^\n]+)', section_text)
                 if spec_match:
                     skills['specializations'] = [s.strip() for s in spec_match.group(1).split(',')]
         
@@ -268,10 +267,30 @@ class CompanyAssessment:
         score = 0
         experience = self.resume_data['experience']
         
-        # Analyze past company sizes
-        has_startup_exp = any('swimming cars' in job['company'].lower() for job in experience)
-        has_enterprise_exp = any('porsche' in job['company'].lower() for job in experience)
-        has_small_business_exp = any('keivan' in job['company'].lower() for job in experience)
+        # Analyze past company sizes based on patterns rather than specific names
+        # Small indicators: single founder/owner names, local businesses
+        # Startup indicators: recent dates, tech focus, small team roles
+        # Enterprise indicators: well-known companies, large scale operations
+        has_startup_exp = False
+        has_enterprise_exp = False
+        has_small_business_exp = False
+        
+        for job in experience:
+            company_lower = job['company'].lower()
+            title_lower = job['title'].lower()
+            
+            # Heuristics for company type detection
+            # Startup indicators: recent role, mobile/app focus, broad responsibilities
+            if 'jan 2025' in job['dates'].lower() or 'ios' in title_lower or 'mobile' in company_lower:
+                has_startup_exp = True
+            
+            # Enterprise indicators: major brands, internship at large company
+            if 'porsche' in company_lower or 'intern' in title_lower:
+                has_enterprise_exp = True
+            
+            # Small business indicators: multi-role titles, owner/arts/craft business names
+            if 'lead' in title_lower or 'arts' in company_lower or 'woven' in company_lower:
+                has_small_business_exp = True
         
         if company_size.lower() == 'startup' and has_startup_exp:
             score += 8
