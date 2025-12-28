@@ -45,6 +45,12 @@ University of Georgia, May 2019
 - Integrated AWS S3 with Django backend for image storage, improving page load times by 60% and reducing hosting costs by 40%
 - Automated cross-platform inventory synchronization, establishing single source of truth and eliminating stock discrepancies
 
+**Data Automation Intern**  
+*Porsche Cars North America* | Summer 2023  
+- Developed Python automation solution for invoice processing, reducing manual processing time by 75% during critical transition period
+- Created PDF parsing and data extraction pipeline handling 500+ invoices per week with 99% accuracy
+- Supported company-wide sustainability initiative by digitizing paper-based workflows, eliminating 10,000+ pages annually
+
 **Software Engineer (Full Stack & E-commerce)**  
 *Keivan Woven Arts* | Jun 2021 – Dec 2022  
 - Led backend development for Django-based product catalog system, managing 1,000+ SKUs across multiple sales channels
@@ -52,17 +58,11 @@ University of Georgia, May 2019
 - Built RESTful APIs for seamless integration with Shopify, Chairish, and 1stdibs platforms
 - Implemented automated data validation and error handling, reducing product listing errors by 85%
 
-**Data Automation Intern**  
-*Porsche Cars North America* | Summer 2023  
-- Developed Python automation solution for invoice processing, reducing manual processing time by 75% during critical transition period
-- Created PDF parsing and data extraction pipeline handling 500+ invoices per week with 99% accuracy
-- Supported company-wide sustainability initiative by digitizing paper-based workflows, eliminating 10,000+ pages annually
-
 ## Projects
 
 **AI-Powered Employment Assessment Platform** | [GitHub](https://github.com/nkzarrabi/Employment-Assessment)  
 - Designed and architected ML-based candidate assessment system with modular criteria engine for role-specific evaluations
-- Built with React frontend and Django/Flask backend, supporting flexible cognitive assessments and customizable weightings
+- Built with React frontend and Django backend, supporting flexible cognitive assessments and customizable weightings
 - Integrated TensorFlow/PyTorch for predictive modeling and bias-free candidate scoring
 
 **Django Health Tracker (Raspberry Pi)** | [GitHub](https://github.com/nkzarrabi/Django-RPI-Health-Tracker)  
