@@ -415,7 +415,7 @@ sub {
         overflow: visible
     }
 
-    /* Ensure proper bullet spacing in PDF */
+    /* Ensure proper bullet spacing in PDF - slightly more spacing than screen for better readability */
     ul, ol {
         margin: 12px 0;
         padding-left: 30px;
