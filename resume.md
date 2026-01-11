@@ -49,9 +49,9 @@ University of Georgia, May 2018
 
 **Data Automation Intern**  
 *Porsche Cars North America* | Jun 2018 – Nov 2018  
-- Developed Python automation pipeline with OCR-based document computer vision for invoice processing, extracting structured data from scanned documents with 99% accuracy across 500+ invoices per week
-- Implemented PDF parsing and data extraction system using OCR technology to digitize paper-based workflows, reducing manual processing time by 75%
-- Built production CV pipeline integrating OCR outputs into automated workflows, eliminating 10,000+ pages annually during critical business transition period
+- Developed OCR-based document processing pipeline for invoice automation, extracting structured data from scanned invoices with 99% accuracy across 500+ documents per week
+- Implemented PDF parsing system using OCR technology to digitize paper-based workflows, reducing manual processing time by 75%
+- Built production CV pipeline integrating OCR outputs into automated workflows, eliminating 10,000+ pages annually during critical business transition
 
 **Software Engineer (Full Stack & E-commerce)**  
 *Keivan Woven Arts* | Jun 2021 – Dec 2022  
