@@ -33,7 +33,20 @@ jobs:
           cp result/resume/resume.html out/${{ github.actor }}_resume.html
           cp result/resume/resume.pdf out/${{ github.actor }}_resume.pdf
           cp result/resume/resume.md out/${{ github.actor }}_resume.md
+      
+      # Use vnu.jar for HTML validation if html-validator is not available
+      - name: Download vnu.jar for HTML validation
+        run: |
+          wget -O vnu.jar https://github.com/validator/validator/releases/download/latest/vnu.jar
 
+      - name: Validate HTML
+        run: |
+          java -jar vnu.jar --errors-only out/${{ github.actor }}_resume.html
+      
+      - name: Validate PDF
+        run: |
+          pdfinfo out/${{ github.actor }}_resume.pdf
+      
       - name: Store Artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -58,7 +71,6 @@ jobs:
         run: |
           mkdir public
           cp out/${{ github.actor }}_resume.html public/index.html
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -68,7 +80,6 @@ jobs:
       - name: Install hub 
         run: |
           sudo snap install hub --classic
-
       - name: Set Tag
         id: current-datetime
         run: echo "CURRENT_DATETIME=$(date +'%Y-%m-%d-%H_%M_%S%z')" >> "$GITHUB_OUTPUT"
