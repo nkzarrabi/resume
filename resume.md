@@ -6,7 +6,7 @@ LinkedIn: [nikouzarrabi](https://www.linkedin.com/in/nikouzarrabi/) | GitHub: [n
 
 ## Professional Summary
 
-Software Engineer with MS in Computer Science specializing in full-stack development, automation, and AI integration. Proven track record of building scalable iOS and web applications, implementing CI/CD pipelines, and reducing operational overhead through intelligent automation. Experienced in Swift, Python, Django, and cloud platforms with a passion for solving complex problems through elegant technical solutions.
+Software Engineer with MS in Computer Science specializing in real-time detection systems, automation pipelines, and ML-adjacent engineering. Proven track record building production data pipelines, implementing event-based detection logic, and deploying cloud-native systems with CI/CD automation. Experienced in Python, real-time data processing, anomaly detection, and API development for inference pipelines with a focus on low-latency, scalable solutions.
 
 ## Education
 
@@ -22,57 +22,60 @@ University of Georgia, May 2018
 
 ## Technical Skills
 
-- **Languages:** Python, Swift, JavaScript, Java, HTML/CSS, SQL, PHP  
-- **Frameworks & Tools:** SwiftUI, Django, React, Vue.js, Playwright, TensorFlow, PyTorch  
-- **Cloud & DevOps:** AWS (S3, EC2), Google Cloud, Firebase, CI/CD Pipelines, Docker, GitHub Actions  
-- **Specializations:** Full-Stack Development, Mobile Development (iOS), Automation, Machine Learning, TDD  
-- **E-commerce Platforms:** Shopify, Chairish, 1stdibs, WordPress, WooCommerce  
+- **Languages:** Python, JavaScript, Swift, Java, SQL, HTML/CSS  
+- **Frameworks & Tools:** Django, FastAPI, React, Playwright, TensorFlow, PyTorch, SwiftUI  
+- **Cloud & DevOps:** AWS (S3, EC2), Google Cloud, Firebase, Docker, CI/CD Pipelines, GitHub Actions  
+- **Specializations:** Real-Time Data Pipelines, Event-Based Detection Logic, Anomaly Detection, Data Validation, ML-Adjacent Engineering, API Development  
+- **Data Processing:** Automated Data Validation, State Change Detection, Error Monitoring, Pipeline Orchestration  
 - **Human Languages:** English (Native), French (Native), Spanish (Proficient), German (Intermediate)
 
 ## Experience
 
 **iOS Developer**  
 *Swimming Cars* | Jan 2025 – Present  
-- Architected and developed a production-ready SwiftUI iOS app for swim community carpool coordination, serving 50+ early adopters with zero crashes
-- Integrated Apple Maps SDK and Firebase for real-time geolocation tracking, authentication, and cloud data persistence
-- Designed modular, maintainable architecture following MVVM pattern, enabling 40% faster feature development cycle
-- Implemented secure user messaging system and comprehensive onboarding flow, achieving 95% completion rate
+- Built production SwiftUI iOS app with real-time geolocation tracking and event-based state detection for carpool coordination, serving 50+ users with zero crashes
+- Implemented real-time data synchronization pipeline using Firebase for live location updates and state change detection across distributed clients
+- Developed event-driven architecture for detecting and responding to user state transitions (pickup, dropoff, arrival), ensuring low-latency notifications
+- Integrated Apple Maps SDK with custom detection logic for proximity-based event triggers and automated status updates
 
 **DevOps Engineer / E-commerce Tech Lead**  
 *Keivan Woven Arts* | May 2024 – Jan 2025  
-- Built and maintained automated infrastructure for product listings across 3 major platforms (Shopify, Chairish, 1stdibs), reducing manual listing time by 80%
-- Implemented CI/CD pipelines using GitHub Actions, decreasing deployment time from hours to minutes and reducing errors by 95%
-- Integrated AWS S3 with Django backend for image storage, improving page load times by 60% and reducing hosting costs by 40%
-- Automated cross-platform inventory synchronization, establishing single source of truth and eliminating stock discrepancies
+- Built automated detection and monitoring system for product listing anomalies across 3 platforms (Shopify, Chairish, 1stdibs), reducing manual validation time by 80%
+- Implemented CI/CD pipelines with automated testing and error detection using GitHub Actions, decreasing deployment failures by 95%
+- Developed real-time inventory synchronization pipeline with state change detection and anomaly alerts, eliminating stock discrepancies
+- Integrated AWS S3 with Django backend for scalable image storage, implementing automated data validation and error handling for 1,000+ SKUs
 
 **Data Automation Intern**  
 *Porsche Cars North America* | Jun 2018 – Nov 2018  
-- Developed Python automation solution for invoice processing, reducing manual processing time by 75% during critical transition period
-- Created PDF parsing and data extraction pipeline handling 500+ invoices per week with 99% accuracy
-- Supported company-wide sustainability initiative by digitizing paper-based workflows, eliminating 10,000+ pages annually
+- Developed Python automation pipeline for invoice processing with built-in data validation and anomaly detection, reducing manual processing time by 75%
+- Created PDF parsing and data extraction system handling 500+ invoices per week with 99% accuracy through automated error detection and validation rules
+- Implemented monitoring and alerting for data quality issues, catching inconsistencies and anomalies in real-time during critical transition period
+- Built automated workflow replacing paper-based processes, eliminating 10,000+ pages annually while ensuring data integrity
 
 **Software Engineer (Full Stack & E-commerce)**  
 *Keivan Woven Arts* | Jun 2021 – Dec 2022  
-- Led backend development for Django-based product catalog system, managing 1,000+ SKUs across multiple sales channels
-- Developed Python automation scripts using Playwright for web scraping and testing, reducing QA time by 70%
-- Built RESTful APIs for seamless integration with Shopify, Chairish, and 1stdibs platforms
-- Implemented automated data validation and error handling, reducing product listing errors by 85%
+- Developed Django-based product catalog system with automated data validation and error detection for 1,000+ SKUs across multiple sales channels
+- Built Python automation scripts using Playwright for web scraping with anomaly detection and data quality monitoring, reducing QA time by 70%
+- Designed RESTful APIs for platform integration (Shopify, Chairish, 1stdibs) with built-in error handling and validation logic
+- Implemented automated data validation pipelines and error detection systems, reducing product listing errors by 85%
 
 ## Projects
 
 **AI-Powered Employment Assessment Platform** | [GitHub](https://github.com/nkzarrabi/Employment-Assessment)  
-- Designed and architected ML-based candidate assessment system with modular criteria engine for role-specific evaluations
-- Built with React frontend and Django backend, supporting flexible cognitive assessments and customizable weightings
-- Integrated TensorFlow/PyTorch for predictive modeling and bias-free candidate scoring
+- Designed ML-based candidate assessment system with automated scoring and anomaly detection for bias-free evaluations
+- Built with React frontend and Django backend supporting real-time assessment processing and validation
+- Integrated TensorFlow/PyTorch for predictive modeling with automated quality checks and edge case detection
 
 **Django Health Tracker (Raspberry Pi)** | [GitHub](https://github.com/nkzarrabi/Django-RPI-Health-Tracker)  
-- Full-stack health monitoring application with Django backend and JavaScript frontend, deployed on Raspberry Pi
-- Implemented real-time data visualization and user authentication for personal health metrics tracking
+- Full-stack health monitoring application with real-time data pipeline and anomaly detection for health metrics
+- Implemented event-based alerting system with Django backend and JavaScript frontend, deployed on Raspberry Pi
+- Built automated data validation and threshold-based detection for monitoring personal health indicators
 
 **Package Sorting Algorithm** | [GitHub](https://github.com/nkzarrabi/package-sorter)  
-- Developed efficient sorting solution for robotic automation system with comprehensive test coverage
-- Implemented business logic for package classification based on dimensional and weight constraints
+- Developed efficient classification and detection logic for robotic automation system with comprehensive validation
+- Implemented rule-based detection engine for package categorization based on dimensional and weight constraints
+- Built automated testing framework ensuring detection accuracy across diverse package types
 
 **Computational Music Composition** | [GitHub](https://github.com/nkzarrabi/Computational-Algorithmic-Music-Composition)  
-- Created algorithmic music generation system using NLP and modular arithmetic, avoiding traditional ML approaches
-- Demonstrated creative problem-solving through mathematical approach to artistic expression
+- Created algorithmic pattern detection and generation system using NLP and modular arithmetic
+- Demonstrated rule-based detection approach to identify and generate musical patterns without traditional ML
