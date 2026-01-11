@@ -126,11 +126,25 @@ pre {
 }
 
 ul {
-    padding-left: 30px
+    padding-left: 30px;
+    margin: 10px 0
 }
 
 ol {
-    padding-left: 30px
+    padding-left: 30px;
+    margin: 10px 0
+}
+
+li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside
+}
+
+ol li {
+    list-style-type: decimal
 }
 
 ol li ul:first-of-type {
@@ -399,6 +413,19 @@ sub {
     pre code {
         background-color: white !important;
         overflow: visible
+    }
+
+    /* Ensure proper bullet spacing in PDF */
+    ul, ol {
+        margin: 12px 0;
+        padding-left: 30px
+    }
+
+    li {
+        margin-bottom: 8px;
+        line-height: 1.6;
+        display: list-item;
+        page-break-inside: avoid
     }
 }
 

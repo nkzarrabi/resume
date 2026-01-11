@@ -129,10 +129,22 @@ pre {
 margin: 15px 0
 }
 ul {
-padding-left: 30px
+padding-left: 30px;
+margin: 10px 0
 }
 ol {
-padding-left: 30px
+padding-left: 30px;
+margin: 10px 0
+}
+li {
+margin-bottom: 8px;
+line-height: 1.6;
+display: list-item;
+list-style-type: disc;
+list-style-position: outside
+}
+ol li {
+list-style-type: decimal
 }
 ol li ul:first-of-type {
 margin-top: 0
@@ -358,6 +370,17 @@ background: #fff
 pre code {
 background-color: white !important;
 overflow: visible
+}
+
+ul, ol {
+margin: 12px 0;
+padding-left: 30px
+}
+li {
+margin-bottom: 8px;
+line-height: 1.6;
+display: list-item;
+page-break-inside: avoid
 }
 }
 @media screen {
@@ -635,60 +658,131 @@ display: none
 <p>Atlanta, GA | (404) 433-4290 | <a href="mailto:zarrabinikou@gmail.com">zarrabinikou@gmail.com</a><br />
 LinkedIn: <a href="https://www.linkedin.com/in/nikouzarrabi/">nikouzarrabi</a> |
 GitHub: <a href="https://github.com/nkzarrabi">nkzarrabi</a></p>
+<h2 id="professional-summary">Professional Summary</h2>
+<p>Applied AI/ML Engineer with MS in Computer Science (Interactive
+Intelligence) specializing in machine learning model training,
+image-based computer vision, and production systems. Experience with
+supervised ML model development on structured and spatial datasets,
+implementing probability map generation, and deploying inference
+pipelines via REST APIs. Background in document computer vision (OCR),
+visual reasoning tasks, and building scalable production software with
+Python, Django, and cloud platforms.</p>
+<h2 id="technical-skills">Technical Skills</h2>
+<ul>
+<li><strong>Languages:</strong> Python, JavaScript, Java, Swift, SQL,
+HTML/CSS<br />
+</li>
+<li><strong>ML &amp; AI:</strong> Supervised Learning, Feature
+Engineering, Model Training &amp; Tuning, TensorFlow, PyTorch,
+Scikit-learn<br />
+</li>
+<li><strong>Computer Vision:</strong> Probabilistic Image Analysis,
+Document Computer Vision (OCR), Visual Reasoning, Probability Map
+Generation<br />
+</li>
+<li><strong>Frameworks &amp; Tools:</strong> Django, FastAPI, React,
+Playwright, SwiftUI<br />
+</li>
+<li><strong>Cloud &amp; DevOps:</strong> AWS (S3, EC2), Google Cloud,
+Firebase, Docker, CI/CD Pipelines, GitHub Actions<br />
+</li>
+<li><strong>Specializations:</strong> ML Model Deployment, REST API
+Development, Production Systems, Automation, Full-Stack
+Development<br />
+</li>
+<li><strong>Human Languages:</strong> English (Native), French (Native),
+Spanish (Proficient), German (Intermediate)</li>
+</ul>
+<h2 id="experience">Experience</h2>
+<p><strong>Applied ML &amp; Computer Vision Engineer (Football
+Analytics)</strong><br />
+<em>Contractor</em> | 2023 – 2024<br />
+- Trained supervised ML models on structured and spatial football event
+data (Opta, Wyscout format), performing feature engineering and
+parameter tuning for predictive analytics - Built regression models for
+player performance metrics and market value estimation, generating
+out-of-sample predictions integrated into analytics dashboards -
+Reconstructed pixel-aligned probability maps from event-level data to
+replicate Expected Goals (xG) visualizations and heatmap analytics -
+Validated ML model outputs against image-space ground truth, ensuring
+spatial accuracy of probability surface generation - Deployed inference
+outputs via REST APIs for integration into downstream analytics
+systems</p>
+<p><strong>iOS Developer</strong><br />
+<em>Swimming Cars</em> | Jan 2025 – Present<br />
+- Built production SwiftUI iOS app for carpool coordination serving 50+
+users, integrating Firebase for real-time data synchronization and cloud
+persistence - Implemented geolocation tracking system using Apple Maps
+SDK with event-driven architecture for state management - Developing
+REST API integration layer for model inference endpoints and ML service
+integration - Deployed cloud-native mobile application with zero crashes
+through comprehensive testing and CI/CD automation</p>
+<p><strong>DevOps Engineer / E-commerce Tech Lead</strong><br />
+<em>Keivan Woven Arts</em> | May 2024 – Jan 2025<br />
+- Built and deployed automated infrastructure for product listings
+across 3 platforms (Shopify, Chairish, 1stdibs), reducing manual
+processing time by 80% - Implemented CI/CD pipelines using GitHub
+Actions with automated testing and validation, reducing deployment
+errors by 95% - Integrated AWS S3 with Django backend for scalable image
+storage serving 1,000+ SKUs, improving performance by 60% - Developed
+Python automation scripts for cross-platform inventory synchronization
+and data validation</p>
+<p><strong>Data Automation Intern</strong><br />
+<em>Porsche Cars North America</em> | Jun 2018 – Nov 2018<br />
+- Developed OCR-based document processing pipeline for invoice
+automation, extracting structured data from scanned invoices with 99%
+accuracy across 500+ documents per week - Implemented PDF parsing system
+using OCR technology to digitize paper-based workflows, reducing manual
+processing time by 75% - Built production computer vision pipeline
+integrating OCR outputs into automated workflows, eliminating 10,000+
+pages annually during critical business transition</p>
+<p><strong>Software Engineer (Full Stack &amp;
+E-commerce)</strong><br />
+<em>Keivan Woven Arts</em> | Jun 2021 – Dec 2022<br />
+- Developed Django-based product catalog system with REST APIs managing
+1,000+ SKUs across multiple sales channels - Built Python automation
+scripts using Playwright for web scraping and testing, reducing QA time
+by 70% - Implemented data validation pipelines and error handling
+systems, reducing product listing errors by 85% - Designed and deployed
+RESTful APIs for platform integration (Shopify, Chairish, 1stdibs) with
+JSON data serialization</p>
+<h2 id="projects">Projects</h2>
+<p><strong>AI-Powered Employment Assessment Platform</strong> | <a href="https://github.com/nkzarrabi/Employment-Assessment">GitHub</a><br />
+- Trained supervised ML models for candidate assessment using
+TensorFlow, performing feature engineering and model tuning for
+role-specific evaluations - Developed predictive scoring system with
+bias-free evaluation criteria, integrating trained models into
+production inference pipeline - Built React frontend and Django backend
+REST API for serving model predictions and supporting real-time
+assessments</p>
+<p><strong>Visual Reasoning AI System</strong> | <em>Georgia Tech
+Coursework</em><br />
+- Implemented visual reasoning algorithms solving Raven’s Progressive
+Matrices using PIL for image processing - Developed pattern recognition
+and spatial relationship extraction directly from image data -
+Demonstrated symbolic AI approach to visual reasoning, identifying
+geometric transformations and logical patterns without deep learning</p>
+<p><strong>Django Health Tracker (Raspberry Pi)</strong> | <a href="https://github.com/nkzarrabi/Django-RPI-Health-Tracker">GitHub</a><br />
+- Full-stack health monitoring application with Django backend and
+JavaScript frontend, deployed on Raspberry Pi - Implemented real-time
+data visualization and threshold-based alerting for personal health
+metrics tracking</p>
+<p><strong>Package Sorting Algorithm</strong> | <a href="https://github.com/nkzarrabi/package-sorter">GitHub</a><br />
+- Developed classification logic for robotic automation system with
+comprehensive test coverage - Implemented rule-based algorithm for
+package categorization based on dimensional and weight constraints</p>
 <h2 id="education">Education</h2>
-<p><strong>MS in Computer Science</strong><br />
-Georgia Institute of Technology, Interactive Intelligence, August
-2023</p>
+<p><strong>MS in Computer Science — Interactive
+Intelligence</strong><br />
+Georgia Institute of Technology, August 2023<br />
+<em>Coursework:</em> Artificial Intelligence, Knowledge-Based AI (Visual
+Reasoning), Machine Learning, Robotics: AI Techniques (Perception,
+Spatial Reasoning), Software Architecture &amp; Analysis</p>
 <p><strong>BS in Mathematics</strong><br />
 University of Georgia, May 2018</p>
 <h2 id="certifications">Certifications</h2>
 <ul>
 <li>Generative AI with Large Language Models, Coursera (2024)</li>
 </ul>
-<h2 id="skills">Skills</h2>
-<ul>
-<li><strong>Core:</strong> Problem-Solving, Automation, TDD, Project
-Management<br />
-</li>
-<li><strong>Software:</strong> Python, Java, HTML, JavaScript, Django,
-Cloud Platforms (AWS, Google Cloud), Data Analysis, PHP, Liquid<br />
-</li>
-<li><strong>Web Development:</strong> Shopify, WordPress,
-WooCommerce<br />
-</li>
-<li><strong>Languages:</strong> English (Native), French (Native),
-Spanish (Proficient), German (Intermediate)</li>
-</ul>
-<h2 id="experience">Experience</h2>
-<p><strong>iOS Developer</strong><br />
-<em>Swimming Cars</em> | Jan 2025 – Present<br />
-- Designed and developed a SwiftUI-based iOS app enabling families in
-swim communities to coordinate carpools efficiently and securely. -
-Integrated Apple Maps and Firebase for real-time location tracking, user
-authentication, and data persistence. - Implemented custom UI components
-for post filtering, user messaging, and onboarding. - Led the
-architecture of a modular, scalable codebase optimized for future
-feature expansion, including routing, push notifications, and community
-moderation tools.</p>
-<p><strong>DevOps Engineer / E-commerce Tech Lead</strong><br />
-<em>Keivan Woven Arts</em> | May 2024 – Jan 2025<br />
-- Developed infrastructure for product listings across Shopify,
-Chairish, and 1stdibs, automating inventory processes and reducing
-manual work. - Implemented CI/CD pipelines, streamlining product updates
-and deployments. - Integrated AWS S3 with a Django backend for optimized
-image storage and performance. - Automated inventory syncing across
-platforms, establishing a single source of truth.</p>
-<p><strong>Software Engineer (Full Stack &amp;
-E-commerce)</strong><br />
-<em>Keivan Woven Arts</em> | Jun 2021 – Dec 2022<br />
-- Led backend development for product catalog management, enhancing
-integration with e-commerce platforms. - Built automation scripts for
-product listings, reducing manual workload and errors. - Used Playwright
-and Python to automate testing and data extraction.</p>
-<p><strong>Data Automation Intern</strong><br />
-<em>Porsche Cars North America</em> | Jun 2018 – Nov 2018<br />
-- Automated invoice processing with Python, enhancing efficiency in a
-transitional period. - Supported sustainability initiatives, promoting
-digitalization to minimize paper use.</p>
 </body>
 </html>
