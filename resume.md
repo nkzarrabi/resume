@@ -32,7 +32,7 @@ Applied AI/ML Engineer with MS in Computer Science (Interactive Intelligence) sp
 *Swimming Cars* | Jan 2025 – Present  
 - Built production SwiftUI iOS app for carpool coordination serving 50+ users, integrating Firebase for real-time data synchronization and cloud persistence
 - Implemented geolocation tracking system using Apple Maps SDK with event-driven architecture for state management
-- Developing REST API integration layer to support future ML-backed features and inference services
+- Developing REST API integration layer for model inference endpoints and ML service integration
 - Deployed cloud-native mobile application with zero crashes through comprehensive testing and CI/CD automation
 
 **DevOps Engineer / E-commerce Tech Lead**  
