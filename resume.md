@@ -6,12 +6,13 @@ LinkedIn: [nikouzarrabi](https://www.linkedin.com/in/nikouzarrabi/) | GitHub: [n
 
 ## Professional Summary
 
-Software Engineer with MS in Computer Science specializing in full-stack development, automation, and AI integration. Proven track record of building scalable iOS and web applications, implementing CI/CD pipelines, and reducing operational overhead through intelligent automation. Experienced in Swift, Python, Django, and cloud platforms with a passion for solving complex problems through elegant technical solutions.
+Applied AI/ML Engineer with MS in Computer Science (Interactive Intelligence) specializing in machine learning model training, image-based computer vision, and production systems. Experience training supervised ML models on structured and spatial datasets, implementing image-space probability modeling, and deploying inference pipelines via REST APIs. Background in document CV (OCR), visual reasoning tasks, and building scalable production software with Python, Django, and cloud platforms.
 
 ## Education
 
-**MS in Computer Science**  
-Georgia Institute of Technology, Interactive Intelligence, August 2023
+**MS in Computer Science — Interactive Intelligence**  
+Georgia Institute of Technology, August 2023  
+*Coursework:* Artificial Intelligence, Knowledge-Based AI (Visual Reasoning), Machine Learning, Robotics: AI Techniques (Perception, Spatial Reasoning), Software Architecture & Analysis
 
 **BS in Mathematics**  
 University of Georgia, May 2018
@@ -22,57 +23,59 @@ University of Georgia, May 2018
 
 ## Technical Skills
 
-- **Languages:** Python, Swift, JavaScript, Java, HTML/CSS, SQL, PHP  
-- **Frameworks & Tools:** SwiftUI, Django, React, Vue.js, Playwright, TensorFlow, PyTorch  
-- **Cloud & DevOps:** AWS (S3, EC2), Google Cloud, Firebase, CI/CD Pipelines, Docker, GitHub Actions  
-- **Specializations:** Full-Stack Development, Mobile Development (iOS), Automation, Machine Learning, TDD  
-- **E-commerce Platforms:** Shopify, Chairish, 1stdibs, WordPress, WooCommerce  
+- **Languages:** Python, JavaScript, Java, Swift, SQL, HTML/CSS  
+- **ML & AI:** Supervised Learning, Feature Engineering, Model Training & Tuning, TensorFlow, PyTorch, Scikit-learn  
+- **Computer Vision:** Image-Space Probability Modeling, Document CV (OCR), Visual Reasoning, Probability Map Generation  
+- **Frameworks & Tools:** Django, FastAPI, React, Playwright, SwiftUI  
+- **Cloud & DevOps:** AWS (S3, EC2), Google Cloud, Firebase, Docker, CI/CD Pipelines, GitHub Actions  
+- **Specializations:** ML Model Deployment, REST API Development, Production Systems, Automation, Full-Stack Development  
 - **Human Languages:** English (Native), French (Native), Spanish (Proficient), German (Intermediate)
 
 ## Experience
 
 **iOS Developer**  
 *Swimming Cars* | Jan 2025 – Present  
-- Architected and developed a production-ready SwiftUI iOS app for swim community carpool coordination, serving 50+ early adopters with zero crashes
-- Integrated Apple Maps SDK and Firebase for real-time geolocation tracking, authentication, and cloud data persistence
-- Designed modular, maintainable architecture following MVVM pattern, enabling 40% faster feature development cycle
-- Implemented secure user messaging system and comprehensive onboarding flow, achieving 95% completion rate
+- Built production SwiftUI iOS app for carpool coordination serving 50+ users, integrating Firebase for real-time data synchronization and cloud persistence
+- Implemented geolocation tracking system using Apple Maps SDK with event-driven architecture for state management
+- Designed REST API integration layer for ML-backed features and production inference services
+- Deployed cloud-native mobile application with zero crashes through comprehensive testing and CI/CD automation
 
 **DevOps Engineer / E-commerce Tech Lead**  
 *Keivan Woven Arts* | May 2024 – Jan 2025  
-- Built and maintained automated infrastructure for product listings across 3 major platforms (Shopify, Chairish, 1stdibs), reducing manual listing time by 80%
-- Implemented CI/CD pipelines using GitHub Actions, decreasing deployment time from hours to minutes and reducing errors by 95%
-- Integrated AWS S3 with Django backend for image storage, improving page load times by 60% and reducing hosting costs by 40%
-- Automated cross-platform inventory synchronization, establishing single source of truth and eliminating stock discrepancies
+- Built and deployed automated infrastructure for product listings across 3 platforms (Shopify, Chairish, 1stdibs), reducing manual processing time by 80%
+- Implemented CI/CD pipelines using GitHub Actions with automated testing and validation, reducing deployment errors by 95%
+- Integrated AWS S3 with Django backend for scalable image storage serving 1,000+ SKUs, improving performance by 60%
+- Developed Python automation scripts for cross-platform inventory synchronization and data validation
 
 **Data Automation Intern**  
 *Porsche Cars North America* | Jun 2018 – Nov 2018  
-- Developed Python automation solution for invoice processing, reducing manual processing time by 75% during critical transition period
-- Created PDF parsing and data extraction pipeline handling 500+ invoices per week with 99% accuracy
-- Supported company-wide sustainability initiative by digitizing paper-based workflows, eliminating 10,000+ pages annually
+- Developed Python automation pipeline with OCR-based document computer vision for invoice processing, extracting structured data from scanned documents with 99% accuracy across 500+ invoices per week
+- Implemented PDF parsing and data extraction system using OCR technology to digitize paper-based workflows, reducing manual processing time by 75%
+- Built production CV pipeline integrating OCR outputs into automated workflows, eliminating 10,000+ pages annually during critical business transition period
 
 **Software Engineer (Full Stack & E-commerce)**  
 *Keivan Woven Arts* | Jun 2021 – Dec 2022  
-- Led backend development for Django-based product catalog system, managing 1,000+ SKUs across multiple sales channels
-- Developed Python automation scripts using Playwright for web scraping and testing, reducing QA time by 70%
-- Built RESTful APIs for seamless integration with Shopify, Chairish, and 1stdibs platforms
-- Implemented automated data validation and error handling, reducing product listing errors by 85%
+- Developed Django-based product catalog system with REST APIs managing 1,000+ SKUs across multiple sales channels
+- Built Python automation scripts using Playwright for web scraping and testing, reducing QA time by 70%
+- Implemented data validation pipelines and error handling systems, reducing product listing errors by 85%
+- Designed and deployed RESTful APIs for platform integration (Shopify, Chairish, 1stdibs) with JSON data serialization
 
 ## Projects
 
 **AI-Powered Employment Assessment Platform** | [GitHub](https://github.com/nkzarrabi/Employment-Assessment)  
-- Designed and architected ML-based candidate assessment system with modular criteria engine for role-specific evaluations
-- Built with React frontend and Django backend, supporting flexible cognitive assessments and customizable weightings
-- Integrated TensorFlow/PyTorch for predictive modeling and bias-free candidate scoring
+- Trained supervised ML models for candidate assessment using TensorFlow/PyTorch, performing feature engineering and model tuning for role-specific evaluations
+- Developed predictive scoring system with bias-free evaluation criteria, integrating trained models into production inference pipeline
+- Built React frontend and Django backend REST API for serving model predictions and supporting real-time assessments
+
+**Visual Reasoning AI System** | *Georgia Tech Coursework*  
+- Implemented visual reasoning algorithms solving Raven's Progressive Matrices using PIL for image processing
+- Developed pattern recognition and spatial relationship extraction directly from image data
+- Demonstrated symbolic CV approach identifying geometric transformations and logical patterns without deep learning
 
 **Django Health Tracker (Raspberry Pi)** | [GitHub](https://github.com/nkzarrabi/Django-RPI-Health-Tracker)  
 - Full-stack health monitoring application with Django backend and JavaScript frontend, deployed on Raspberry Pi
-- Implemented real-time data visualization and user authentication for personal health metrics tracking
+- Implemented real-time data visualization and threshold-based alerting for personal health metrics tracking
 
 **Package Sorting Algorithm** | [GitHub](https://github.com/nkzarrabi/package-sorter)  
-- Developed efficient sorting solution for robotic automation system with comprehensive test coverage
-- Implemented business logic for package classification based on dimensional and weight constraints
-
-**Computational Music Composition** | [GitHub](https://github.com/nkzarrabi/Computational-Algorithmic-Music-Composition)  
-- Created algorithmic music generation system using NLP and modular arithmetic, avoiding traditional ML approaches
-- Demonstrated creative problem-solving through mathematical approach to artistic expression
+- Developed classification logic for robotic automation system with comprehensive test coverage
+- Implemented rule-based algorithm for package categorization based on dimensional and weight constraints
