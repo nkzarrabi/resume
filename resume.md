@@ -20,40 +20,39 @@ Applied AI/ML Engineer with MS in Computer Science (Interactive Intelligence) sp
 
 ## Experience
 
-**Applied ML & Computer Vision Engineer (Football Analytics)**  
-*Contractor* | 2023 – 2024  
+**Applied ML & Computer Vision Engineer (Football Analytics)**
+*Contractor* | 2023 – 2024
 - Trained supervised ML models on structured and spatial football event data (Opta, Wyscout format), performing feature engineering and parameter tuning for predictive analytics
 - Built regression models for player performance metrics and market value estimation, generating out-of-sample predictions integrated into analytics dashboards
 - Reconstructed pixel-aligned probability maps from event-level data to replicate Expected Goals (xG) visualizations and heatmap analytics
 - Validated ML model outputs against image-space ground truth, ensuring spatial accuracy of probability surface generation
 - Deployed inference outputs via REST APIs for integration into downstream analytics systems
 
-**iOS Developer**  
-*Swimming Cars* | Jan 2025 – Present  
+**iOS Developer**
+*Swimming Cars* | Jan 2025 – Present
 - Built production SwiftUI iOS app for carpool coordination serving 50+ users, integrating Firebase for real-time data synchronization and cloud persistence
 - Implemented geolocation tracking system using Apple Maps SDK with event-driven architecture for state management
 - Developing REST API integration layer for model inference endpoints and ML service integration
 - Deployed cloud-native mobile application with zero crashes through comprehensive testing and CI/CD automation
 
-**DevOps Engineer / E-commerce Tech Lead**  
-*Keivan Woven Arts* | May 2024 – Jan 2025  
+**Front Desk Associate**
+*Stone Summit Atlanta* | 2022 – 2023
+- Managed front desk operations in a high-traffic climbing gym environment
+- Handled memberships, check-ins, and customer interactions
+- Maintained efficient workflow during peak hours while ensuring safety compliance
+
+**DevOps Engineer / E-commerce Tech Lead**
+*Keivan Woven Arts* | May 2024 – Jan 2025
 - Built and deployed automated infrastructure for product listings across 3 platforms (Shopify, Chairish, 1stdibs), reducing manual processing time by 80%
 - Implemented CI/CD pipelines using GitHub Actions with automated testing and validation, reducing deployment errors by 95%
 - Integrated AWS S3 with Django backend for scalable image storage serving 1,000+ SKUs, improving performance by 60%
 - Developed Python automation scripts for cross-platform inventory synchronization and data validation
 
-**Data Automation Intern**  
-*Porsche Cars North America* | Jun 2018 – Nov 2018  
+**Data Automation Intern**
+*Porsche Cars North America* | Jun 2018 – Nov 2018
 - Developed OCR-based document processing pipeline for invoice automation, extracting structured data from scanned invoices with 99% accuracy across 500+ documents per week
 - Implemented PDF parsing system using OCR technology to digitize paper-based workflows, reducing manual processing time by 75%
 - Built production computer vision pipeline integrating OCR outputs into automated workflows, eliminating 10,000+ pages annually during critical business transition
-
-**Software Engineer (Full Stack & E-commerce)**  
-*Keivan Woven Arts* | Jun 2021 – Dec 2022  
-- Developed Django-based product catalog system with REST APIs managing 1,000+ SKUs across multiple sales channels
-- Built Python automation scripts using Playwright for web scraping and testing, reducing QA time by 70%
-- Implemented data validation pipelines and error handling systems, reducing product listing errors by 85%
-- Designed and deployed RESTful APIs for platform integration (Shopify, Chairish, 1stdibs) with JSON data serialization
 
 ## Projects
 
@@ -87,3 +86,14 @@ University of Georgia, May 2018
 ## Certifications
 
 - Generative AI with Large Language Models, Coursera (2024)
+
+## Climbing & Community
+
+**Member**
+*Common Climbing (CTR Non-Profit Rock Climbing Club)*
+- Participated in community-driven climbing events focused on accessibility and inclusion
+
+**Member**
+*Southeastern Climbers Coalition (SCC)*
+- Contributed to trail days supporting maintenance and access for climbing properties
+- Participated in stewardship efforts to preserve outdoor climbing areas
