@@ -23,7 +23,7 @@ body {
 }
 
 body {
-    font: 13.34pxHelvetica;
+    font: 13.34px Helvetica, sans-serif;
     -webkit-font-smoothing: subpixel-antialiased;
     line-height: 1.4;
     padding: 3px;
@@ -39,7 +39,7 @@ p {
 
 a {
     color: #4183c4;
-    text-decoration: none
+    text-decoration: none;
 }
 
 body {
@@ -93,7 +93,7 @@ h2 {
 
 h3 {
     font-size: 18px;
-    color: #333
+    color: #333;
     -webkit-margin-before: 0.01em;
     -webkit-margin-after: 0.01em;
 }
